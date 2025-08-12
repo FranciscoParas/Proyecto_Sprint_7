@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
+st.title("Proyecto Sprint 7")   # Título principal
+st.header("🚗 Análisis de Vehículos")      # Encabezado grande
 car_data = pd.read_csv('vehicles_us.csv')  # leer los datos
 hist_button = st.checkbox('Construir Histograma')  # Crear un boton
 dis_button = st.checkbox('Construir Grafico de Dispersión')
